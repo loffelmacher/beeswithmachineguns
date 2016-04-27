@@ -8,25 +8,14 @@ Creates many Amazon EC2 instances in order to run a distributed set of HTTP requ
 * Python 2.6 (2.7 works too)
 * boto
 * paramiko
-
-## Installation for users
-
-Preferred:
-
-```
-pip install beeswithmachineguns
-```
-
-or, if you must:
-
-```
-easy_install beeswithmachineguns
-```
+* mkvirtualenv
+* easy_install
+* pip
 
 ## Installation for developers (w/ virtualenv + virtualenvwrapper)
 
 ```
-git clone git://github.com/newsapps/beeswithmachineguns.git
+git clone git://github.com/loffelmacher/beeswithmachineguns.git
 cd beeswithmachineguns
 mkvirtualenv --no-site-packages bees
 easy_install pip
@@ -96,23 +85,13 @@ The (nearly) complete list of options includes:
 
 ## The caveat! (PLEASE READ)
 
-(The following was cribbed from our "original blog post about the bees":http://blog.apps.chicagotribune.com/2010/07/08/bees-with-machine-guns/.)
-
 If you decide to use the Bees, please keep in mind the following important caveat: they are, more-or-less a distributed denial-of-service attack in a fancy package and, therefore, if you point them at any server you don’t own you will behaving *unethically*, have your Amazon Web Services account *locked-out*, and be *liable* in a court of law for any downtime you cause.
 
 You have been warned.
 
 ## Bugs
 
-Please log your bugs on the "Github issues tracker":http://github.com/newsapps/beeswithmachineguns/issues.
-
-## Credits
-
-The bees are a creation of the News Applications team at the Chicago Tribune--visit "our blog":http://apps.chicagotribune.com/ and read "our original post about the project":http://blog.apps.chicagotribune.com/2010/07/%2008/bees-with-machine-guns/.
-
-Initial refactoring code and inspiration from "Jeff Larson":http://github.com/thejefflarson.
-
-Thanks to everyone who reported bugs against the alpha release.
+Please log your bugs on the "Github issues tracker":https://github.com/loffelmacher/beeswithmachineguns/issues.
 
 ## License
 
